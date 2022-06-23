@@ -1,0 +1,100 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+a,
+a::after,
+a::before,
+a:hover,
+a:active,
+ul,
+ul::before,
+ul::after,
+ul:hover,
+li {
+    text-decoration: none;
+    color: $brown;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    margin: 0;
+}
+
+.container {
+    padding: 25px 29px;
+
+    @include breakpoint-up(large) {
+        padding: 35px 60px;
+
+    }
+}
+
+
+.hide-for-mobile {
+    @include breakpoint-down(small) {
+        display: none;
+    }
+}
+
+.hide-for-desktop {
+    @include breakpoint-up(large) {
+        display: none !important;
+    }
+}
+
+.d-none {
+    display: none !important;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-inline {
+    display: inline;
+}
+
+.d-inline-block{
+    display: inline-block;
+}
+
+.justify-c-center {
+    justify-content: center;
+}
+
+.align-t-center {
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-column-reverse {
+    flex-direction: column-reverse;
+}
+
+.font-inter {
+    font-family: 'Inter', sans-serif;
+}
+
+.font-raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+.opacity{
+    opacity: 0.6;
+}
+
+.ps-absolute{
+    position: absolute;
+}

@@ -1,0 +1,137 @@
+.hero {
+    position: relative;
+
+    @include breakpoint-down(small) {
+        overflow: hidden;
+    }
+
+    &__line_bg {
+
+        @include breakpoint-up(large) {
+            position: absolute;
+            right: 1.875rem;
+            top: -3.125rem;
+        }
+
+        img {
+            background-repeat: no-repeat;
+            width: 35.625rem;
+            height: 44.0625rem;
+
+            @include breakpoint-up(large) {
+                width: 62.1875rem;
+                height: 40rem;
+            }
+
+        }
+    }
+
+    &__content {}
+
+    &__title {
+        position: absolute;
+        top: 1.875rem;
+        text-align: center;
+        line-height: 1.5;
+        margin: 0 auto;
+        left: 19%;
+        color: $brown;
+
+        @include breakpoint-up(large) {
+            font-size: 2.75rem;
+            top: 5rem;
+            left: 7.0625rem;
+            z-index: 1;
+            line-height: 1.3;
+        }
+
+        span {
+            display: block;
+            font-size: 1rem;
+        }
+    }
+
+    &__front_cont {
+        position: absolute;
+        top: 25%;
+
+        @include breakpoint-down(small) {
+            left: -1.8125rem;
+        }
+
+        @include breakpoint-up(large) {
+            right: 10.9375rem;
+            top: 2.0625rem;
+        }
+
+        .yellow-shape {
+            width: 28.125rem;
+            height: 27.5rem;
+            border-radius: 50%;
+            background-color: #FFDE3B;
+
+            @include breakpoint-up(large) {
+                width: 29.625rem;
+                height: 29.4375rem;
+            }
+
+        }
+
+        .durian-img {
+            position: absolute;
+            top: 4.0625rem;
+            right: 4.0625rem;
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 20.25rem;
+            height: 20.25rem;
+
+            @include breakpoint-up(large) {
+                width: 35rem;
+                height: 35rem;
+                top: -0.1875rem;
+                right: 0rem;
+                left: .9375rem;
+            }
+
+        }
+    }
+
+    .mini_durian1 {
+        background-repeat: no-repeat;
+        background-size: contain;
+        left: 11.5625rem;
+        top: -0.9375rem;
+    }
+
+    .mini_durian2 {
+        background-repeat: no-repeat;
+        background-size: contain;
+        right: 4.375rem;
+        top: -5.3125rem;
+    }
+
+    .mini_durian3 {
+        background-repeat: no-repeat;
+        background-size: contain;
+        top: 26.875rem;
+        left: 10.5625rem;
+
+    }
+
+    .mini_durian4 {
+        background-repeat: no-repeat;
+        background-size: contain;
+        top: 26.875rem;
+        right: 4.625rem;
+        transform: scaleX(-1);
+
+
+    }
+
+    .mini_durian-size {
+        width: 7.5rem;
+        height: 7.5rem;
+
+    }
+}
