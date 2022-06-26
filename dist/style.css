@@ -30,29 +30,16 @@ li {
   list-style: none;
 }
 
-.container {
-  padding: 25px 29px;
+@media (max-width: 39.9375em) {
+  .container {
+    padding: 25px 29px;
+  }
 }
 
 @media (min-width: 64em) {
   .container {
     padding: 35px 60px;
   }
-}
-
-.reveal {
-  position: relative;
-  -webkit-transform: translateY(150px);
-          transform: translateY(150px);
-  opacity: 0;
-  -webkit-transition: 1.5s all ease;
-  transition: 1.5s all ease;
-}
-
-.reveal.active {
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
-  opacity: 1;
 }
 
 @media (max-width: 39.9375em) {
@@ -710,12 +697,7 @@ li {
 
 .timeline {
   min-height: 100vh;
-}
-
-@media (max-width: 39.9375em) {
-  .timeline {
-    position: relative;
-  }
+  position: relative;
 }
 
 .timeline__title {
@@ -929,6 +911,117 @@ li {
     top: 200px;
     left: 35px;
     bottom: 0;
+  }
+}
+
+.second_timeline {
+  height: 100vh;
+  position: relative;
+}
+
+.second_timeline .years_contents {
+  padding: 63px 0 0 88px;
+}
+
+@media (min-width: 40em) {
+  .second_timeline .years_contents {
+    padding: 115px 0 0 235px;
+  }
+}
+
+@media (min-width: 64em) {
+  .second_timeline .years_contents {
+    padding: 217px 0 0 441px;
+  }
+}
+
+.second_timeline .year_number {
+  left: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #8d6011;
+  padding: 10px 0 0 9px;
+}
+
+@media (min-width: 40em) {
+  .second_timeline .year_number {
+    padding-left: 90px;
+  }
+}
+
+@media (min-width: 64em) {
+  .second_timeline .year_number {
+    font-size: 40px;
+    padding-left: 170px;
+  }
+}
+
+.second_timeline .line_width {
+  width: 25px;
+}
+
+@media (min-width: 40em) {
+  .second_timeline .line_width {
+    width: 40px;
+  }
+}
+
+@media (min-width: 64em) {
+  .second_timeline .line_width {
+    width: 70px;
+  }
+}
+
+.second_timeline .line_bar_cont {
+  background-color: #e5e5e5;
+  top: 64px;
+  bottom: 0;
+  left: 64px;
+}
+
+@media (min-width: 40em) {
+  .second_timeline .line_bar_cont {
+    left: 164px;
+  }
+}
+
+@media (min-width: 64em) {
+  .second_timeline .line_bar_cont {
+    top: 184px;
+    left: 388px;
+  }
+}
+
+.second_timeline .line_2015 {
+  background-color: #FFF4C0;
+  height: 205px;
+}
+
+@media (min-width: 64em) {
+  .second_timeline .line_2015 {
+    height: 264px;
+  }
+}
+
+.second_timeline .years_title .years_sub {
+  color: #8d6011;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media (min-width: 64em) {
+  .second_timeline .years_title .years_sub {
+    font-size: 30px;
+  }
+}
+
+.second_timeline .years_title .years_desc {
+  font-size: 16px;
+}
+
+@media (min-width: 64em) {
+  .second_timeline .years_title .years_desc {
+    font-size: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */

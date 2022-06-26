@@ -30,7 +30,9 @@ li {
 }
 
 .container {
-    padding: 25px 29px;
+    @include breakpoint-down(small) {
+        padding: 25px 29px;
+    }
 
     @include breakpoint-up(large) {
         padding: 35px 60px;
@@ -38,16 +40,16 @@ li {
     }
 }
 
-.reveal{
-    position: relative;
-    transform: translateY(150px);
-    opacity: 0;
-    transition: 1.5s all ease;
-  }
-  .reveal.active{
-    transform: translateY(0);
-    opacity: 1;
-  }
+// .reveal{
+//     position: relative;
+//     transform: translateY(150px);
+//     opacity: 0;
+//     transition: 1.5s all ease;
+//   }
+//   .reveal.active{
+//     transform: translateY(0);
+//     opacity: 1;
+//   }
 
 
 .hide-for-mobile {
@@ -74,7 +76,7 @@ li {
     display: inline;
 }
 
-.d-inline-block{
+.d-inline-block {
     display: inline-block;
 }
 
@@ -102,10 +104,10 @@ li {
     font-family: 'Raleway', sans-serif;
 }
 
-.opacity{
+.opacity {
     opacity: 0.6;
 }
 
-.ps-absolute{
+.ps-absolute {
     position: absolute;
 }

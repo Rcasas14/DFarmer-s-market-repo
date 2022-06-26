@@ -1,0 +1,104 @@
+.second_timeline {
+    height: 100vh;
+    position: relative;
+
+    .years_contents {
+        padding: 63px 0 0 88px;
+
+        @include breakpoint-up(medium) {
+            padding: 115px 0 0 235px;
+        }
+
+        @include breakpoint-up(large){
+            padding: 217px 0 0 441px;
+        }
+    }
+
+    .year_number {
+        left: 0;
+        font-size: 18px;
+        font-weight: 600;
+        color: $brown;
+        padding: 10px 0 0 9px;
+
+        @include breakpoint-up(medium) {
+            padding-left: 90px;
+        }
+
+        //year_2015
+        @include breakpoint-up(large){
+            font-size: 40px;
+            padding-left: 170px;
+        }
+    }
+
+    .year_2015 {}
+
+    .year_2016 {}
+
+    .year_2018 {}
+
+    .year_2019 {}
+
+    .line_width {
+        width: 25px;
+
+        @include breakpoint-up(medium) {
+            width: 40px;
+        }
+
+        @include breakpoint-up(large){
+            width: 70px;
+        }
+    }
+
+    .line_bar_cont {
+        background-color: #e5e5e5;
+        top: 64px;
+        bottom: 0;
+        left: 64px;
+
+        @include breakpoint-up(medium){
+            left: 164px;
+        }
+
+        @include breakpoint-up(large){
+            top: 184px;
+            left: 388px;
+        }
+    }
+
+
+    .line_2015 {
+        background-color: #FFF4C0;
+        height: 205px;
+
+        @include breakpoint-up(large){
+            height: 264px;
+        }
+    }
+
+    .years_item {}
+
+    .years_title {
+        .years_sub {
+            color: $brown;
+            font-size: 18px;
+            font-weight: 600;
+
+            @include breakpoint-up(large){
+                font-size: 30px;
+            }
+
+        }
+
+        .years_desc {
+            font-size: 16px;
+
+            @include breakpoint-up(large){
+                font-size: 20px;
+            }
+        }
+    }
+
+}
