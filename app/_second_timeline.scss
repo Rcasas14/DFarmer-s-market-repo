@@ -9,7 +9,7 @@
             padding: 115px 0 0 235px;
         }
 
-        @include breakpoint-up(large){
+        @include breakpoint-up(large) {
             padding: 217px 0 0 441px;
         }
     }
@@ -25,20 +25,49 @@
             padding-left: 90px;
         }
 
-        //year_2015
-        @include breakpoint-up(large){
+        //1st 2015
+        @include breakpoint-up(large) {
             font-size: 40px;
             padding-left: 170px;
         }
     }
 
-    .year_2015 {}
+    .year_2015 {
+        //2nd 2015
+        padding-top: 240px;
 
-    .year_2016 {}
+        @include breakpoint-up(large) {
+            padding-top: 260px;
+        }
+    }
 
-    .year_2018 {}
+    .year_2016 {
+        padding-top: 487px;
 
-    .year_2019 {}
+        @include breakpoint-up(medium) {
+            padding-top: 498px;
+        }
+
+        @include breakpoint-up(large) {
+            padding-top: 534px;
+        }
+    }
+
+    .year_2018 {
+        padding-top: 854px;
+
+        @include breakpoint-up(large) {
+            padding-top: 883px;
+        }
+    }
+
+    .year_2019 {
+        padding-top: 1109px;
+
+        @include breakpoint-up(large) {
+            padding-top: 1302px;
+        }
+    }
 
     .line_width {
         width: 25px;
@@ -47,7 +76,7 @@
             width: 40px;
         }
 
-        @include breakpoint-up(large){
+        @include breakpoint-up(large) {
             width: 70px;
         }
     }
@@ -58,11 +87,11 @@
         bottom: 0;
         left: 64px;
 
-        @include breakpoint-up(medium){
+        @include breakpoint-up(medium) {
             left: 164px;
         }
 
-        @include breakpoint-up(large){
+        @include breakpoint-up(large) {
             top: 184px;
             left: 388px;
         }
@@ -73,20 +102,103 @@
         background-color: #FFF4C0;
         height: 205px;
 
-        @include breakpoint-up(large){
+        @include breakpoint-up(large) {
             height: 264px;
         }
     }
 
+    .line_bar_venturing {
+        height: 234px;
+        background-color: #FFEE9B;
+    }
+
+    .line_bar_2016 {
+        background-color: #F4DE6E;
+        height: 345px;
+
+        @include breakpoint-up(large) {
+            height: 341px;
+        }
+    }
+
+    .line_bar_2018 {
+        background-color: #FFF4C0;
+        height: 296px;
+
+        @include breakpoint-up(large) {
+            height: 398px;
+        }
+    }
+
+    .line_bar_2019 {
+        background-color: #F3CA00;
+        height: 296px;
+
+        @include breakpoint-up(large) {
+            height: 390px;
+        }
+    }
+
     .years_item {}
+
+    .years_item_venturing {
+        padding-top: 112px;
+
+        @include breakpoint-up(medium) {
+            padding-top: 190px;
+        }
+    }
+
+    .years_vh {
+        height: 100vh;
+    }
+
+    .years_item_2016 {
+        padding-top: 137px;
+
+        @include breakpoint-up(medium) {
+            padding-top: 190px;
+        }
+
+        @include breakpoint-up(large) {
+            //height: 100vh;
+        }
+    }
+
+
+    .years_item_2018 {
+        padding-top: 240px;
+
+        @include breakpoint-up(medium) {
+            padding-top: 290px;
+        }
+
+        @include breakpoint-up(large) {
+            padding-top: 254px;
+        }
+    }
+
+    .years_item_2019 {
+        padding-top: 147px;
+
+        @include breakpoint-up(medium) {
+            padding-top: 185px;
+        }
+
+        @include breakpoint-up(large) {
+            //padding-top: 405px;
+            padding-top: 340px;
+        }
+    }
 
     .years_title {
         .years_sub {
             color: $brown;
             font-size: 18px;
             font-weight: 600;
+            padding-bottom: 7px;
 
-            @include breakpoint-up(large){
+            @include breakpoint-up(large) {
                 font-size: 30px;
             }
 
@@ -95,7 +207,7 @@
         .years_desc {
             font-size: 16px;
 
-            @include breakpoint-up(large){
+            @include breakpoint-up(large) {
                 font-size: 20px;
             }
         }
