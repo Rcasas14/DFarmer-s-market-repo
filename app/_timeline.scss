@@ -1,0 +1,212 @@
+.timeline {
+    min-height: 100vh;
+
+    @include breakpoint-down(small) {
+        position: relative;
+
+    }
+
+    &__content {}
+
+    &__title {
+        text-align: center;
+        color: $brown;
+
+        @include breakpoint-up(medium) {
+            font-size: 60px;
+            padding: 60px 0 0 0;
+        }
+
+        @include breakpoint-down(small) {
+            font-size: 30px;
+            padding: 20px 0;
+
+        }
+    }
+
+    &__years {
+        @include breakpoint-up(medium) {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+
+        @include breakpoint-down(small) {
+            padding-top: 50px;
+        }
+    }
+
+    &__item {
+
+        @include breakpoint-down(small) {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+
+        .p-bot {
+            margin-bottom: 30px;
+        }
+
+        .text_content {
+            text-align: center;
+
+            @include breakpoint-up(medium) {
+                padding: 80px 0;
+            }
+
+
+            @include breakpoint-down(small) {
+                padding: 20px 0;
+            }
+
+
+            h3 {
+                color: $brown;
+
+                @include breakpoint-up(medium) {
+                    font-size: 35px;
+                }
+            }
+
+            p {
+
+                @include breakpoint-up(medium) {
+                    font-size: 18px;
+                }
+
+                @include breakpoint-down(small) {
+                    padding: 5px 30px;
+                    line-height: 1.4;
+                }
+            }
+
+
+        }
+
+        .circle_year {
+
+            @include breakpoint-up(medium) {
+
+                width: 155px;
+                height: 155px;
+                border-radius: 50%;
+                padding-top: 59px;
+                padding-left: 41px;
+                margin: 0 auto;
+            }
+
+            @include breakpoint-down(small) {
+                width: 90px;
+                height: 90px;
+                padding-top: 34px;
+                padding-left: 25px;
+                border-radius: 50px;
+                margin: 0 auto;
+            }
+
+
+            p {
+
+                @include breakpoint-up(medium) {
+                    color: #fff;
+                    font-size: 30px;
+                    font-weight: 600;
+                }
+
+                @include breakpoint-down(small) {
+
+                    font-size: 16px;
+                    color: #ffff;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+
+    .timeline_green {
+        background-color: $green;
+    }
+
+    .timeline_yellow {
+        background-color: $yellow;
+    }
+
+    .dot_size {
+
+        @include breakpoint-up(medium) {
+            width: 40px;
+            height: 40px;
+            background-color: $green;
+            border-radius: 50%;
+        }
+
+        @include breakpoint-down(small) {
+
+            width: 22px;
+            height: 22px;
+            background-color: $green;
+            border-radius: 50px;
+            z-index: 1;
+        }
+    }
+
+    .time_dot1 {
+
+        @include breakpoint-up(medium) {
+            bottom: 65px;
+            left: 275px;
+        }
+
+
+        @include breakpoint-down(small) {
+            top: 187px;
+        }
+    }
+
+    .time_dot2 {
+
+        @include breakpoint-up(medium) {
+            bottom: 65px;
+            left: 741.9px;
+        }
+
+        @include breakpoint-down(small) {
+            top: 405px;
+        }
+    }
+
+
+    .time_dot3 {
+        @include breakpoint-up(medium) {
+            bottom: 65px;
+            right: 263px;
+        }
+
+        @include breakpoint-down(small) {
+            bottom: 200px;
+        }
+    }
+
+    .time_line {
+
+        @include breakpoint-up(medium) {
+            height: 18px;
+            width: auto;
+            right: 0;
+            left: 280px;
+            bottom: 76px;
+            background-color: $green;
+        }
+
+        @include breakpoint-down(small) {
+            width: 10px;
+            background-color: $green;
+            top: 200px;
+            left: 35px;
+            bottom: 0;
+        }
+    }
+
+
+}

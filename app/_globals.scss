@@ -1,13 +1,17 @@
 html {
     font-size: 100%;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 *,
 *::before,
 *::after {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
 
 a,
 a::after,
@@ -25,10 +29,6 @@ li {
     list-style: none;
 }
 
-body{
-    margin: 0;
-}
-
 .container {
     padding: 25px 29px;
 
@@ -37,6 +37,17 @@ body{
 
     }
 }
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1.5s all ease;
+  }
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
 
 
 .hide-for-mobile {
