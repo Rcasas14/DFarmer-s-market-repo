@@ -58,19 +58,19 @@
             a:before {
                 display: block;
                 transition: all .3s;
-                
+
             }
-            
+
             a:hover {
                 //color: $brown;
                 opacity: 0.6;
-                
+
             }
 
             a {
                 position: relative;
                 padding: 0 .3125rem .3125rem .3125rem;
-                
+
             }
 
             a:after {
@@ -84,13 +84,13 @@
                 color: transparent;
                 background: $yellow;
                 height: .125rem;
-                
-                
+
+
             }
 
             a:hover:after {
                 width: 100%;
-                
+
             }
 
 
@@ -103,11 +103,21 @@
     .logo {
         flex: 1;
 
+        @include breakpoint-up(medium) {
+            padding: 25px 0 0 30px;
+        }
+
         img {
             background-repeat: no-repeat;
             background-size: contain;
-            width: 4.75rem;
-            height: 5.125rem;
+            width: 76px;
+            height: 82px;
+
+            @include breakpoint-up(medium) {
+                width: 62px;
+                height: 72px;
+
+            }
         }
     }
 
@@ -142,11 +152,15 @@
         margin: 0;
         top: 0;
         background-color: $yellow;
-        width: calc(100% - 144px);
+        width: calc(100% - 9rem);
         bottom: 0;
         max-height: 100%;
         font-family: 'Inter', sans-serif;
         padding: 6.25rem 1.875rem 0rem 1.875rem;
+
+        @include breakpoint-up(medium) {
+            width: calc(100% - 12rem);
+        }
 
 
         a {

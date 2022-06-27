@@ -10,13 +10,13 @@
         color: $brown;
 
         @include breakpoint-up(medium) {
-            font-size: 60px;
-            padding: 60px 0 0 0;
+            font-size: 3.75rem;
+            padding: 3.75rem 0 0 0;
         }
 
         @include breakpoint-down(small) {
-            font-size: 30px;
-            padding: 20px 0;
+            font-size: 1.875rem;
+            padding: 1.25rem 0;
 
         }
     }
@@ -29,7 +29,7 @@
 
 
         @include breakpoint-down(small) {
-            padding-top: 50px;
+            padding-top: 3.125rem;
         }
     }
 
@@ -42,19 +42,19 @@
 
 
         .p-bot {
-            margin-bottom: 30px;
+            margin-bottom: 1.875rem;
         }
 
         .text_content {
             text-align: center;
 
             @include breakpoint-up(medium) {
-                padding: 80px 0;
+                padding: 5rem 0;
             }
 
 
             @include breakpoint-down(small) {
-                padding: 20px 0;
+                padding: 1.25rem 0;
             }
 
 
@@ -62,18 +62,18 @@
                 color: $brown;
 
                 @include breakpoint-up(medium) {
-                    font-size: 35px;
+                    font-size: 2.1875rem;
                 }
             }
 
             p {
 
                 @include breakpoint-up(medium) {
-                    font-size: 18px;
+                    font-size: 1.125rem;
                 }
 
                 @include breakpoint-down(small) {
-                    padding: 5px 30px;
+                    padding: .3125rem 1.875rem;
                     line-height: 1.4;
                 }
             }
@@ -85,20 +85,20 @@
 
             @include breakpoint-up(medium) {
 
-                width: 155px;
-                height: 155px;
+                width: 9.6875rem;
+                height: 9.6875rem;
                 border-radius: 50%;
-                padding-top: 59px;
-                padding-left: 41px;
+                padding-top: 3.6875rem;
+                padding-left: 2.5625rem;
                 margin: 0 auto;
             }
 
             @include breakpoint-down(small) {
-                width: 90px;
-                height: 90px;
-                padding-top: 34px;
-                padding-left: 25px;
-                border-radius: 50px;
+                width: 5.625rem;
+                height: 5.625rem;
+                padding-top: 2.125rem;
+                padding-left: 1.5625rem;
+                border-radius: 3.125rem;
                 margin: 0 auto;
             }
 
@@ -107,13 +107,13 @@
 
                 @include breakpoint-up(medium) {
                     color: #fff;
-                    font-size: 30px;
+                    font-size: 1.875rem;
                     font-weight: 600;
                 }
 
                 @include breakpoint-down(small) {
 
-                    font-size: 16px;
+                    font-size: 1rem;
                     color: #ffff;
                     font-weight: 600;
                 }
@@ -132,18 +132,18 @@
     .dot_size {
 
         @include breakpoint-up(medium) {
-            width: 40px;
-            height: 40px;
+            width: 2.5rem;
+            height: 2.5rem;
             background-color: $green;
             border-radius: 50%;
         }
 
         @include breakpoint-down(small) {
 
-            width: 22px;
-            height: 22px;
+            width: 1.375rem;
+            height: 1.375rem;
             background-color: $green;
-            border-radius: 50px;
+            border-radius: 3.125rem;
             z-index: 1;
         }
     }
@@ -151,56 +151,56 @@
     .time_dot1 {
 
         @include breakpoint-up(medium) {
-            bottom: 65px;
-            left: 275px;
+            bottom: 4.0625rem;
+            left: 17.1875rem;
         }
 
 
         @include breakpoint-down(small) {
-            top: 187px;
+            top: 11.6875rem;
         }
     }
 
     .time_dot2 {
 
         @include breakpoint-up(medium) {
-            bottom: 65px;
-            left: 741.9px;
+            bottom: 4.0625rem;
+            left: 46.3687rem;
         }
 
         @include breakpoint-down(small) {
-            top: 405px;
+            top: 25.3125rem;
         }
     }
 
 
     .time_dot3 {
         @include breakpoint-up(medium) {
-            bottom: 65px;
-            right: 263px;
+            bottom: 4.0625rem;
+            right: 16.4375rem;
         }
 
         @include breakpoint-down(small) {
-            bottom: 200px;
+            bottom: 12.5rem;
         }
     }
 
     .time_line {
 
         @include breakpoint-up(medium) {
-            height: 18px;
+            height: 1.125rem;
             width: auto;
             right: 0;
-            left: 280px;
-            bottom: 76px;
+            left: 17.5rem;
+            bottom: 4.75rem;
             background-color: $green;
         }
 
         @include breakpoint-down(small) {
-            width: 10px;
+            width: .625rem;
             background-color: $green;
-            top: 200px;
-            left: 35px;
+            top: 12.5rem;
+            left: 2.1875rem;
             bottom: 0;
         }
     }

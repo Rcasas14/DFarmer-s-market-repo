@@ -1,4 +1,4 @@
-.mission {
+.vision {
     position: relative;
     min-height: 100vh;
 
@@ -8,7 +8,7 @@
 
         @include breakpoint-up(large) {
             display: flex;
-            flex-direction: row-reverse;
+            flex-direction: row;
         }
     }
 
@@ -18,24 +18,26 @@
 
         @include breakpoint-up(large) {
             flex: 1;
-            justify-content: flex-end;
+            justify-content: flex-start;
             padding-right: 30px;
         }
 
         img {
 
-            height: 290px;
-            width: 281px;
-            border-radius: 50%;
-            border: 5px dashed $yellow;
+            height: 236px;
+            width: 290px;
+            border-radius: 50px;
+            border: 5px dashed #ffde3b;
             padding: 16px;
 
             @include breakpoint-up(large) {
-                height: 438px;
-                width: 427px;
+                height: 385px;
+                width: 540px;
             }
         }
+
     }
+
 
     &__title {
 
@@ -88,7 +90,5 @@
             }
         }
     }
-
-
 
 }

@@ -64,6 +64,12 @@ li {
     }
 }
 
+.hide-for-tablet{
+    @include breakpoint-down(medium){
+        display: none;
+    }
+}
+
 .d-none {
     display: none !important;
 }

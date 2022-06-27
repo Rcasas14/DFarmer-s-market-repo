@@ -80,18 +80,30 @@
     from {
         width: calc(100% - 9rem);
         visibility: visible;
+
+        @include breakpoint-up(medium) {
+            width: calc(100% - 12rem);
+        }
     }
 
     99% {
         width: calc(99% - 8.9375rem);
         visibility: visible;
         opacity: 0;
+
+        @include breakpoint-up(medium) {
+            width: calc(99% - 11.9375rem);
+        }
     }
 
     50% {
         width: calc(50% - 5rem);
         visibility: visible;
         opacity: 0;
+
+        @include breakpoint-up(medium) {
+            width: calc(50% - 8rem);
+        }
     }
 
     to {
@@ -99,20 +111,3 @@
         visibility: hidden;
     }
 }
-
-
-@-webkit-keyframes fill {
-    0% {
-      width: 0%;
-      height: 1px;
-    }
-    50% {
-      width: 100%;
-      height: 1px;
-    }
-    100% {
-      width: 100%;
-      height: 100%;
-      background: #333;
-    }
-  }

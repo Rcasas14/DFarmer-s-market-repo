@@ -1,163 +1,162 @@
 .second_timeline {
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
 
     .years_contents {
-        padding: 63px 0 0 88px;
+        padding: 3.9375rem 0 0 5.5rem;
 
         @include breakpoint-up(medium) {
-            padding: 115px 0 0 235px;
+            padding: 7.1875rem 0 0 14.6875rem;
         }
 
         @include breakpoint-up(large) {
-            padding: 217px 0 0 441px;
+            padding: 13.5625rem 0 0 27.5625rem;
         }
     }
 
     .year_number {
         left: 0;
-        font-size: 18px;
+        font-size: 1.125rem;
         font-weight: 600;
         color: $brown;
-        padding: 10px 0 0 9px;
+        padding: .625rem 0 0 .5625rem;
 
         @include breakpoint-up(medium) {
-            padding-left: 90px;
+            padding-left: 5.625rem;
         }
 
         //1st 2015
         @include breakpoint-up(large) {
-            font-size: 40px;
-            padding-left: 170px;
+            font-size: 2.5rem;
+            padding-left: 10.625rem;
         }
     }
 
     .year_2015 {
         //2nd 2015
-        padding-top: 240px;
+        padding-top: 15rem;
 
         @include breakpoint-up(large) {
-            padding-top: 260px;
+            padding-top: 16.25rem;
         }
     }
 
     .year_2016 {
-        padding-top: 487px;
+        padding-top: 30.4375rem;
 
         @include breakpoint-up(medium) {
-            padding-top: 498px;
+            padding-top: 31.125rem;
         }
 
         @include breakpoint-up(large) {
-            padding-top: 534px;
+            padding-top: 33.375rem;
         }
     }
 
     .year_2018 {
-        padding-top: 854px;
+        padding-top: 53.375rem;
 
         @include breakpoint-up(large) {
-            padding-top: 883px;
+            padding-top: 55.1875rem;
         }
     }
 
     .year_2019 {
-        padding-top: 1109px;
+        padding-top: 69.3125rem;
 
         @include breakpoint-up(large) {
-            padding-top: 1302px;
+            padding-top: 81.375rem;
         }
     }
 
     .line_width {
-        width: 25px;
+        width: 1.5625rem;
 
         @include breakpoint-up(medium) {
-            width: 40px;
+            width: 2.5rem;
         }
 
         @include breakpoint-up(large) {
-            width: 70px;
+            width: 4.375rem;
         }
     }
 
     .line_bar_cont {
         background-color: #e5e5e5;
-        top: 64px;
-        bottom: 0;
-        left: 64px;
+        top: 4rem;
+        left: 4rem;
 
         @include breakpoint-up(medium) {
-            left: 164px;
+            left: 10.25rem;
         }
 
         @include breakpoint-up(large) {
-            top: 184px;
-            left: 388px;
+            top: 11.5rem;
+            left: 24.25rem;
         }
     }
 
 
     .line_2015 {
         background-color: #FFF4C0;
-        height: 205px;
+        height: 12.8125rem;
 
         @include breakpoint-up(large) {
-            height: 264px;
+            height: 16.5rem;
         }
     }
 
     .line_bar_venturing {
-        height: 234px;
+        height: 14.625rem;
         background-color: #FFEE9B;
     }
 
     .line_bar_2016 {
         background-color: #F4DE6E;
-        height: 345px;
+        height: 21.5625rem;
 
         @include breakpoint-up(large) {
-            height: 341px;
+            height: 21.3125rem;
         }
     }
 
     .line_bar_2018 {
         background-color: #FFF4C0;
-        height: 296px;
+        height: 18.5rem;
 
         @include breakpoint-up(large) {
-            height: 398px;
+            height: 24.875rem;
         }
     }
 
     .line_bar_2019 {
         background-color: #F3CA00;
-        height: 296px;
+        height: 13.9375rem;
 
         @include breakpoint-up(large) {
-            height: 390px;
+            height: 24.375rem;
         }
     }
 
     .years_item {}
 
     .years_item_venturing {
-        padding-top: 112px;
+        padding-top: 7rem;
 
         @include breakpoint-up(medium) {
-            padding-top: 190px;
+            padding-top: 11.875rem;
         }
     }
 
     .years_vh {
-        height: 100vh;
+        min-height: 100vh;
     }
 
     .years_item_2016 {
-        padding-top: 137px;
+        padding-top: 8.5625rem;
 
         @include breakpoint-up(medium) {
-            padding-top: 190px;
+            padding-top: 11.875rem;
         }
 
         @include breakpoint-up(large) {
@@ -167,48 +166,49 @@
 
 
     .years_item_2018 {
-        padding-top: 240px;
+        padding-top: 15rem;
 
         @include breakpoint-up(medium) {
-            padding-top: 290px;
+            padding-top: 18.125rem;
         }
 
         @include breakpoint-up(large) {
-            padding-top: 254px;
+            padding-top: 15.875rem;
         }
     }
 
     .years_item_2019 {
-        padding-top: 147px;
+        padding-top: 9.1875rem;
 
         @include breakpoint-up(medium) {
-            padding-top: 185px;
+            padding-top: 11.5625rem;
+            min-height: 100vh;
         }
 
         @include breakpoint-up(large) {
-            //padding-top: 405px;
-            padding-top: 340px;
+            //padding-top: 25.3125rem;
+            padding-top: 21.25rem;
         }
     }
 
     .years_title {
         .years_sub {
             color: $brown;
-            font-size: 18px;
+            font-size: 1.125rem;
             font-weight: 600;
-            padding-bottom: 7px;
+            padding-bottom: .4375rem;
 
             @include breakpoint-up(large) {
-                font-size: 30px;
+                font-size: 1.875rem;
             }
 
         }
 
         .years_desc {
-            font-size: 16px;
+            font-size: 1rem;
 
             @include breakpoint-up(large) {
-                font-size: 20px;
+                font-size: 1.25rem;
             }
         }
     }
