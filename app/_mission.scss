@@ -4,7 +4,7 @@
 
 
     &__content {
-        padding-top: 90px;
+        padding-top: 5.625rem;
 
         @include breakpoint-up(large) {
             display: flex;
@@ -19,20 +19,20 @@
         @include breakpoint-up(large) {
             flex: 1;
             justify-content: flex-end;
-            padding-right: 30px;
+            padding-right: 1.875rem;
         }
 
         img {
 
-            height: 290px;
-            width: 281px;
+            height: 18.125rem;
+            width: 17.5625rem;
             border-radius: 50%;
-            border: 5px dashed $yellow;
-            padding: 16px;
+            border: .3125rem dashed $yellow;
+            padding: 1rem;
 
             @include breakpoint-up(large) {
-                height: 438px;
-                width: 427px;
+                height: 27.375rem;
+                width: 26.6875rem;
             }
         }
     }
@@ -40,51 +40,51 @@
     &__title {
 
         text-align: center;
-        padding-top: 60px;
+        padding-top: 3.75rem;
 
         @include breakpoint-up(large) {
             flex: 1;
-            padding-top: 120px;
+            padding-top: 7.5rem;
             display: flex;
             flex-direction: column;
             justify-content: center;
         }
 
         h2 {
-            font-size: 30px;
-            padding-bottom: 16px;
+            font-size: 1.875rem;
+            padding-bottom: 1rem;
             color: $brown;
 
             @include breakpoint-up(large) {
-                font-size: 60px;
+                font-size: 3.75rem;
                 text-align: left;
             }
         }
 
         p {
-            font-size: 18px;
+            font-size: 1.125rem;
             line-height: 1.5;
 
             @include breakpoint-up(large) {
                 text-align: left;
-                font-size: 21px;
-                padding-right: 40px;
+                font-size: 1.3125rem;
+                padding-right: 2.5rem;
             }
         }
     }
 
 
     .mini_durian {
-        padding-top: 50px;
+        padding-top: 3.125rem;
         transform: scaleX(-1);
 
         img {
-            height: 80px;
-            width: 80px;
+            height: 5rem;
+            width: 5rem;
 
             @include breakpoint-up(large) {
-                height: 118px;
-                width: 118px;
+                height: 7.375rem;
+                width: 7.375rem;
             }
         }
     }

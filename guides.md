@@ -34,3 +34,13 @@ The designs were created to the following widths:
 For the social icons, you can use a font icon library. Some suggestions can be found below:
 
 - [Font Awesome](https://fontawesome.com/)
+
+## Frameworks Used
+- Tailwind Css (https://tailwindcss.com/docs/installation)
+
+### Styling
+- Sass/SCSS
+
+## VS Extensions
+- Live Server
+- Live Sass Compiler

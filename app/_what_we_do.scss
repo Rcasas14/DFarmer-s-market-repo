@@ -1,0 +1,89 @@
+.wwedo {
+    position: relative;
+    min-height: 100vh;
+
+    &__content {}
+
+    &__title {
+        @include breakpoint-down(small) {
+            padding: 1.25rem .3125rem;
+        }
+
+        @include breakpoint-down(medium) {
+            padding-bottom: .9375rem;
+        }
+
+        h1 {
+            color: $brown;
+            padding-top: 3.375rem;
+            text-align: center;
+            font-size: 1.875rem;
+
+            @include breakpoint-up(large) {
+                font-size: 3.75rem;
+            }
+
+        }
+
+        p {
+
+            padding: .625rem 0;
+            font-size: 16px;
+            text-align: center;
+            line-height: 1.5;
+
+            @include breakpoint-up(medium) {
+                padding: .625rem 6.25rem;
+            }
+
+            @include breakpoint-up(large) {
+                padding: .625rem 13.75rem;
+                font-size: 1.3125rem;
+                line-height: 1.5;
+            }
+        }
+    }
+
+    &__images {
+
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 3.125rem;
+        flex-direction: column;
+
+        @include breakpoint-up(medium) {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2.1875rem;
+            padding: 0 1.875rem;
+        }
+
+        @include breakpoint-up(large) {
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 3.125rem;
+            flex-direction: row;
+
+        }
+
+    }
+
+    &__img_size {
+        @include breakpoint-down(small) {
+            &:not(:last-child) {
+                padding-bottom: 1.875rem;
+            }
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+
+
+            @include breakpoint-up(large) {
+                height: 16.25rem;
+            }
+        }
+    }
+
+}

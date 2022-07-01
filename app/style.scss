@@ -1,6 +1,9 @@
+// importing the tailwind directives into live sass compiler going to style.css
+// @import "../dist/import_tailwind.css";
 @import "mixins";
 @import "variables";
 @import "globals";
+@import "carousel";
 @import "animations";
 
 @import "header";
@@ -10,3 +13,6 @@
 @import "second_timeline";
 @import "mission";
 @import "vision";
+@import "what_we_do";
+@import "processing";
+// @import "../dist/carousel.css";

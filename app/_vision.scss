@@ -4,7 +4,7 @@
 
 
     &__content {
-        padding-top: 90px;
+        padding-top: 5.625rem;
 
         @include breakpoint-up(large) {
             display: flex;
@@ -19,20 +19,20 @@
         @include breakpoint-up(large) {
             flex: 1;
             justify-content: flex-start;
-            padding-right: 30px;
+            padding-right: 1.875rem;
         }
 
         img {
 
-            height: 236px;
-            width: 290px;
-            border-radius: 50px;
-            border: 5px dashed #ffde3b;
-            padding: 16px;
+            height: 14.75rem;
+            width: 18.125rem;
+            border-radius: 3.125rem;
+            border: .3125rem dashed #ffde3b;
+            padding: 1rem;
 
             @include breakpoint-up(large) {
-                height: 385px;
-                width: 540px;
+                height: 24.0625rem;
+                width: 33.75rem;
             }
         }
 
@@ -42,51 +42,51 @@
     &__title {
 
         text-align: center;
-        padding-top: 60px;
+        padding-top: 3.75rem;
 
         @include breakpoint-up(large) {
             flex: 1;
-            padding-top: 120px;
+            padding-top: 7.5rem;
             display: flex;
             flex-direction: column;
             justify-content: center;
         }
 
         h2 {
-            font-size: 30px;
-            padding-bottom: 16px;
+            font-size: 1.875rem;
+            padding-bottom: 1rem;
             color: $brown;
 
             @include breakpoint-up(large) {
-                font-size: 60px;
+                font-size: 3.75rem;
                 text-align: left;
             }
         }
 
         p {
-            font-size: 18px;
+            font-size: 1.125rem;
             line-height: 1.5;
 
             @include breakpoint-up(large) {
                 text-align: left;
-                font-size: 21px;
-                padding-right: 40px;
+                font-size: 1.3125rem;
+                padding-right: 2.5rem;
             }
         }
     }
 
 
     .mini_durian {
-        padding-top: 50px;
+        padding-top: 3.125rem;
         transform: scaleX(-1);
 
         img {
-            height: 80px;
-            width: 80px;
+            height: 5rem;
+            width: 5rem;
 
             @include breakpoint-up(large) {
-                height: 118px;
-                width: 118px;
+                height: 7.375rem;
+                width: 7.375rem;
             }
         }
     }

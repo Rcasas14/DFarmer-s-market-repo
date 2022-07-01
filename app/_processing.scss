@@ -1,0 +1,34 @@
+.processing {
+    //position: relative;
+    min-height: 100vh;
+
+    &__title {
+        @include breakpoint-down(small) {
+            padding: 1.25rem .3125rem;
+        }
+
+        @include breakpoint-down(medium) {
+            padding-bottom: .9375rem;
+        }
+
+        h1 {
+            color: $brown;
+            padding-top: 3.375rem;
+            text-align: center;
+            font-size: 1.875rem;
+
+            @include breakpoint-up(large) {
+                font-size: 3.75rem;
+            }
+
+        }
+    }
+
+
+    // --------------- carousel --------------
+
+    
+
+
+
+}

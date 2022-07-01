@@ -1,3 +1,4 @@
+import 'tw-elements';
 const header = document.querySelector('.header');
 const btnHamburger = document.querySelector('#btnHamburger');
 const headerSideNav = document.querySelector('.header__side_nav');
@@ -40,4 +41,7 @@ function reveal() {
   window.addEventListener("scroll", reveal);
 
 // To check the scroll position on page load
+//carousel
+
+
 reveal();

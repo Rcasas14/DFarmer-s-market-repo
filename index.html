@@ -12,6 +12,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Raleway:wght@700&display=swap"
         rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script> -->
+    <script src="js/caro.js"></script>
+    <!-- <link rel="stylesheet" href="dist/tailwind.css"> -->
+    <!-- <link rel="stylesheet" href="app/carousel.css"> -->
     <link rel="stylesheet" href="dist/style.css">
     <script src="https://kit.fontawesome.com/25335dd187.js" crossorigin="anonymous"></script>
 
@@ -19,7 +38,7 @@
 </head>
 
 <body>
-    <main class="">
+    <!-- <main class="">
         <header class="header d-flex container">
             <div class="overlay d-none"></div>
             <a href="#">
@@ -69,15 +88,17 @@
                 </div>
                 <div class="hero__front_cont">
                     <div class="yellow-shape">
-                        <img src="images/durian-hero.png" alt="durian" class="durian-img">
+                        <img class="d-unset durian-img" src="images/durian-hero.png" alt="durian">
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="about" class="profile container">
-            <div class="profile__content reveal">
-                <div class="profile__logo"><img src="images/logo_final.png" alt="dfarmers"></div>
+        <section id="about" class="profile reveal container">
+            <div class="profile__content">
+                <div class="profile__logo">
+                    <img class="d-unset" src="images/logo_final.png" alt="dfarmers">
+                </div>
                 <div class="profile__aboutus">
                     <h1 class="font-raleway">Company Profile</h1>
                     <p class="font-inter">D’Farmers Market Fruits and Pastries Center is a family owned agricultural
@@ -212,7 +233,7 @@
                         conscious consumers
                         high quality and all natural fresh fruits convenient and readily available.
                     </p>
-                    <div class="mini_durian"><img src="images/mini-durian3.png" alt="durian icon"></div>
+                    <div class="mini_durian"><img class="d-unset" src="images/mini-durian3.png" alt="durian icon"></div>
                 </div>
         </section>
 
@@ -227,14 +248,723 @@
                         leading processor of frozen fruits, produced and grown by farmers thereby increasing healthy
                         living and employment.
                     </p>
-                    <div class="mini_durian"><img src="images/mini-durian3.png" alt="durian icon"></div>
+                    <div class="mini_durian"><img class="d-unset" src="images/mini-durian3.png" alt="durian icon"></div>
                 </div>
         </section>
 
-    </main>
+        <section class="wwedo container reveal">
+            <div class="wwedo__content">
+                <div class="wwedo__title">
+                    <h1 class="font-raleway">What We Do</h1>
+                    <p class="font-inter">D’Farmers Market Fruits and Pastries Center commits to produce a high quality
+                        and safe products
+                        that meets customer specifications and which comply with all applicable law and regulatory
+                        requirements.
+                    </p>
+                </div>
+                <div class="wwedo__images reveal">
+                    <div class="flex justify-center wwedo__img_size">
+                        <div class="rounded-lg shadow-lg bg-white ">
+                            <a href="#!">
+                                <img class="rounded-t-lg" src="images/banners/wwdo-durian.jpg" alt="" />
+                            </a>
+                            <div class="p-6">
+                                <h5 class="font-inter text-gray-900 text-xl font-medium mb-2">Durian</h5>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="flex justify-center wwedo__img_size">
+                        <div class="rounded-lg shadow-lg bg-white ">
+                            <a href="#!">
+                                <img class="rounded-t-lg" src="images/banners/wwdo-mango.jpg" alt="" />
+                            </a>
+                            <div class="p-6">
+                                <h5 class="font-inter text-gray-900 text-xl font-medium mb-2">Mango</h5>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center wwedo__img_size">
+                        <div class="rounded-lg shadow-lg bg-white ">
+                            <a href="#!">
+                                <img class="rounded-t-lg" src="images/banners/wwdo-papaya.jpg" alt="" />
+                            </a>
+                            <div class="p-6">
+                                <h5 class="font-inter text-gray-900 text-xl font-medium mb-2">Papaya</h5>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center wwedo__img_size">
+                        <div class="rounded-lg shadow-lg bg-white ">
+                            <a href="#!">
+                                <img class="rounded-t-lg" src="images/banners/wwdo-pineapple.jpg" alt="" />
+                            </a>
+                            <div class="p-6">
+                                <h5 class="font-inter text-gray-900 text-xl font-medium mb-2">Pineapple</h5>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center wwedo__img_size">
+                        <div class="rounded-lg shadow-lg bg-white ">
+                            <a href="#!">
+                                <img class="rounded-t-lg" src="images/banners/wwdo-guava.jpg" alt="" />
+                            </a>
+                            <div class="p-6">
+                                <h5 class="font-inter text-gray-900 text-xl font-medium mb-2">Guava</h5>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center wwedo__img_size">
+                        <div class="rounded-lg shadow-lg bg-white ">
+                            <a href="#!">
+                                <img class="rounded-t-lg" src="images/banners/wwdo-banana.jpg" alt="" />
+                            </a>
+                            <div class="p-6">
+                                <h5 class="font-inter text-gray-900 text-xl font-medium mb-2">Banana</h5>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="processing container">
+            <div class="processing__content">
+                <div class="processing__title">
+                    <h1 class="font-raleway">Processing Procedure</h1>
+                </div>
+            </div>
+        </section>
+        <section class="c-container">
+            <div class="carousel">
+                <div class="carousel__nav">
+                    <span id="moveLeft" class="carousel__arrow">
+                        <svg class="carousel__icon" width="24" height="24" viewBox="0 0 24 24">
+                            <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+                        </svg>
+                    </span>
+                    <span id="moveRight" class="carousel__arrow">
+                        <svg class="carousel__icon" width="24" height="24" viewBox="0 0 24 24">
+                            <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+                        </svg>
+                    </span>
+                </div>
+                <div class="carousel-item carousel-item--1">
+                    <div class="carousel-item__image"></div>
+                    <div class="carousel-item__info">
+                        <div class="carousel-item__container">
+                            <h2 class="carousel-item__subtitle">The grand moment </h2>
+                            <h1 class="carousel-item__title">Le tour</h1>
+                            <p class="carousel-item__description">Sed ut perspiciatis unde omnis iste natus error sit
+                                voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                            <a href="#" class="carousel-item__btn">Explore the tour</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-item--2">
+                    <div class="carousel-item__image"></div>
+                    <div class="carousel-item__info">
+                        <div class="carousel-item__container">
+                            <h2 class="carousel-item__subtitle">The big window </h2>
+                            <h1 class="carousel-item__title">Minimal window</h1>
+                            <p class="carousel-item__description">Clear Glass Window With Brown and White Wooden Frame
+                                iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                            <a href="#" class="carousel-item__btn">Read the article</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-item--3">
+                    <div class="carousel-item__image"></div>
+                    <div class="carousel-item__info">
+                        <div class="carousel-item__container">
+                            <h2 class="carousel-item__subtitle">Tropical palms </h2>
+                            <h1 class="carousel-item__title">Palms</h1>
+                            <p class="carousel-item__description">Sed ut perspiciatis unde omnis iste natus error sit
+                                voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                            <a href="#" class="carousel-item__btn">Explore the palms</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item carousel-item--4">
+                    <div class="carousel-item__image"></div>
+                    <div class="carousel-item__info">
+                        <div class="carousel-item__container">
+                            <h2 class="carousel-item__subtitle">Beach </h2>
+                            <h1 class="carousel-item__title">The beach </h1>
+                            <p class="carousel-item__description">Sed ut perspiciatis unde omnis iste natus error sit
+                                voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                            <a href="#" class="carousel-item__btn">Explore the beach</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item carousel-item--5">
+                    <div class="carousel-item__image"></div>
+                    <div class="carousel-item__info">
+                        <div class="carousel-item__container">
+                            <h2 class="carousel-item__subtitle">The white building </h2>
+                            <h1 class="carousel-item__title">White building</h1>
+                            <p class="carousel-item__description">Sed ut perspiciatis unde omnis iste natus error sit
+                                voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                            <a href="#" class="carousel-item__btn">Read the article</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+    </main> -->
+
+    <header class="header d-flex container">
+        <div class="overlay d-none"></div>
+        <a href="#">
+            <div class="logo hide-for-mobile"><img src="images/logo_final.png" alt="dfarmers_logo"></div>
+        </a>
+        <nav class="header__nav hide-for-tablet hide-for-mobile ">
+            <ul class="header__nav_menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#">The Process</a></li>
+                <li><a href="#">Why Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <a id="btnHamburger" href="#" class="hide-for-desktop d-flex flex-column header__toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+
+        <div class="header__side_nav side-fade-out d-none">
+            <a href="#about">About</a>
+            <a href="#">The Process</a>
+            <a href="#">Why Us</a>
+            <a href="#">Contact</a>
+            <div class="bottom_logo font-inter">
+                <img src="images/logo_final.png" alt="dfarmer's market">
+                <p class="bottom_text">Dfarmer's Market</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <img src="images/mini-durian1.png" alt=""
+            class="hide-for-mobile hide-for-tablet ps-absolute mini_durian-size mini_durian1">
+        <img src="images/mini-durian2.png" alt=""
+            class="hide-for-mobile hide-for-tablet ps-absolute mini_durian-size mini_durian2">
+        <img src="images/mini-durian3.png" alt=""
+            class="hide-for-mobile hide-for-tablet ps-absolute mini_durian-size mini_durian3">
+        <img src="images/mini-durian3.png" alt=""
+            class="hide-for-mobile hide-for-tablet ps-absolute mini_durian-size mini_durian4">
+        <div class="hero__line_bg">
+            <img src="images/hero-curve-design.png" alt="">
+        </div>
+        <div class="hero__content">
+            <div class="hero__title font-raleway">
+                <h1>Dfarmer's Market Fruit <span>and</span> Pastries Center</h1>
+            </div>
+            <div class="hero__front_cont">
+                <div class="yellow-shape">
+                    <img class="d-unset durian-img" src="images/durian-hero.png" alt="durian">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="profile reveal container">
+        <div class="profile__content">
+            <div class="profile__logo">
+                <img class="d-unset" src="images/logo_final.png" alt="dfarmers">
+            </div>
+            <div class="profile__aboutus">
+                <h1 class="font-raleway">Company Profile</h1>
+                <p class="font-inter">D’Farmers Market Fruits and Pastries Center is a family owned agricultural
+                    business located at Purok
+                    8 Cawayan, Calinan District, Davao City. Its agricultural farm measures around 14 hectares with
+                    durian fruit trees as the main crop with mangosteen, lanzones, jackfruit, marang, guyabano,
+                    rambutan, avio, papaya, and coconut trees as intercrops.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="timeline container reveal">
+        <div class="timeline__content">
+            <div class="timeline__graph hide-for-mobile">
+                <div class="time_dot1 ps-absolute dot_size"></div>
+                <div class="time_dot2 ps-absolute dot_size"></div>
+                <div class="time_dot3 ps-absolute dot_size"></div>
+                <div class="time_line ps-absolute"></div>
+            </div>
+            <h1 class="timeline__title font-raleway">Timeline</h1>
+            <div class="timeline__years">
+                <div class="timeline__item">
+                    <div class="text_content">
+                        <h3 class="font-inter">DTI Registration</h3>
+                        <p class="font-inter">The company was established and registered with Department of Trade
+                            and Industry.
+                        </p>
+                    </div>
+                    <div class="circle_year timeline_green">
+                        <p class="font-inter">1993</p>
+                    </div>
+                </div>
+                <div class="timeline__item">
+                    <div class="p-bot text_content">
+                        <h3 class="font-inter">Plant Construction</h3>
+                        <p class="font-inter">Processing Plant was first constructed in this year.
+                        </p>
+                    </div>
+                    <div class="circle_year timeline_yellow">
+                        <p class="font-inter">2011</p>
+                    </div>
+                </div>
+                <div class="timeline__item">
+                    <div class="text_content">
+                        <h3 class="font-inter">DTI Registration</h3>
+                        <p class="font-inter">The company was established and registered with Department of Trade
+                            and Industry.
+                        </p>
+                    </div>
+                    <div class="circle_year timeline_green">
+                        <p class="font-inter">2013</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="second_timeline container reveal">
+        <div class="years_contents">
+            <div class="font-inter ps-absolute year_number">2015</div>
+            <div class="font-inter ps-absolute year_number year_2015">2015</div>
+            <div class="font-inter ps-absolute year_number year_2016">2016</div>
+            <div class="font-inter ps-absolute year_number year_2018">2018</div>
+            <div class="font-inter ps-absolute year_number year_2019">2019</div>
+
+            <div class="line_bar_cont line_width ps-absolute">
+                <div class="line_2015 line_width"></div>
+                <div class="line_bar_venturing line_width"></div>
+                <div class="line_bar_2016 line_width"></div>
+                <div class="line_bar_2018 line_width"></div>
+                <div class="line_bar_2019 line_width"></div>
+            </div>
+            <div class="years_item">
+                <div class="years_title font-inter">
+                    <p class="years_sub">Philippine Export Confederation Inc. Registration</p>
+                    <p class="years_desc">The Company became a member of PHILEXPORT and expand it</p>
+                </div>
+            </div>
+            <div class="years_item_venturing reveal">
+                <div class="years_title font-inter">
+                    <p class="years_sub">Venturing</p>
+                    <p class="years_desc">The company started to venture other frozen fruit products (e.g. mango,
+                        pineapple, banana, guava and papaya)
+                    </p>
+                </div>
+            </div>
+            <div class="years_vh">
+                <div class="years_item_2016 reveal">
+                    <div class="years_title font-inter">
+                        <p class="years_sub">Food and Drug Administration Certification
+                        </p>
+                        <p class="years_desc">The company obtained its License to Operate (LTO) and Current Good
+                            Manufacturing Practices Certificates.
+                        </p>
+                    </div>
+                </div>
+                <div class="years_item_2018 reveal">
+                    <div class="years_title font-inter">
+                        <p class="years_sub">Department of Science and Technology Awardee
+                        </p>
+                        <p class="years_desc">The company attained an award as 2018 Best SETUP Adoptor Awardee
+                            (Regional
+                            Level)
+                        </p>
+                    </div>
+                </div>
+
+                <div class="years_item_2019 reveal ">
+                    <div class="years_title font-inter">
+                        <p class="years_sub">HACCP and cGMP Certification
+                        </p>
+                        <p class="years_desc">The company obtained its Certification on Hazard Analysis Critical
+                            Control Points and Current Good Manufacturing Practices from TUV NORD Philippines, Inc.
+                            up to present.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mission container reveal">
+        <div class="mission__content">
+            <div class="mission__hero_image">
+                <img src="images/banners/durian-mission.jpg" alt="durian farmer">
+            </div>
+            <div class="mission__title">
+                <h2 class="font-raleway">Our Mission</h2>
+                <p class="font-inter">We, the D’Farmers Market Fruits and Pastries Center aims to provide health
+                    conscious consumers
+                    high quality and all natural fresh fruits convenient and readily available.
+                </p>
+                <div class="mini_durian"><img class="d-unset" src="images/mini-durian3.png" alt="durian icon"></div>
+            </div>
+    </section>
+
+    <section class="vision container reveal">
+        <div class="vision__content">
+            <div class="vision__hero_image">
+                <img src="images/banners/fruit_farm_vision.jpg" alt="fruit farm">
+            </div>
+            <div class="vision__title">
+                <h2 class="font-raleway">Our Vision</h2>
+                <p class="font-inter">We, the D’Farmers Market Fruits and Pastries Center envisions to be the
+                    leading processor of frozen fruits, produced and grown by farmers thereby increasing healthy
+                    living and employment.
+                </p>
+                <div class="mini_durian"><img class="d-unset" src="images/mini-durian3.png" alt="durian icon"></div>
+            </div>
+    </section>
+
+    <section class="wwedo container reveal">
+        <div class="wwedo__content">
+            <div class="wwedo__title">
+                <h1 class="font-raleway">What We Do</h1>
+                <p class="font-inter">D’Farmers Market Fruits and Pastries Center commits to produce a high quality
+                    and safe products
+                    that meets customer specifications and which comply with all applicable law and regulatory
+                    requirements.
+                </p>
+            </div>
+            <div class="wwedo__images reveal">
+                <div class="flex justify-center wwedo__img_size">
+                    <div class="rounded-lg shadow-lg bg-white ">
+                        <a href="#!">
+                            <img class="rounded-t-lg" src="images/banners/wwdo-durian.jpg" alt="" />
+                        </a>
+                        <div class="p-6">
+                            <h5 class="font-inter text-gray-900 text-xl font-medium mb-2">Durian</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex justify-center wwedo__img_size">
+                    <div class="rounded-lg shadow-lg bg-white ">
+                        <a href="#!">
+                            <img class="rounded-t-lg" src="images/banners/wwdo-mango.jpg" alt="" />
+                        </a>
+                        <div class="p-6">
+                            <h5 class="font-inter text-gray-900 text-xl font-medium mb-2">Mango</h5>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center wwedo__img_size">
+                    <div class="rounded-lg shadow-lg bg-white ">
+                        <a href="#!">
+                            <img class="rounded-t-lg" src="images/banners/wwdo-papaya.jpg" alt="" />
+                        </a>
+                        <div class="p-6">
+                            <h5 class="font-inter text-gray-900 text-xl font-medium mb-2">Papaya</h5>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center wwedo__img_size">
+                    <div class="rounded-lg shadow-lg bg-white ">
+                        <a href="#!">
+                            <img class="rounded-t-lg" src="images/banners/wwdo-pineapple.jpg" alt="" />
+                        </a>
+                        <div class="p-6">
+                            <h5 class="font-inter text-gray-900 text-xl font-medium mb-2">Pineapple</h5>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center wwedo__img_size">
+                    <div class="rounded-lg shadow-lg bg-white ">
+                        <a href="#!">
+                            <img class="rounded-t-lg" src="images/banners/wwdo-guava.jpg" alt="" />
+                        </a>
+                        <div class="p-6">
+                            <h5 class="font-inter text-gray-900 text-xl font-medium mb-2">Guava</h5>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center wwedo__img_size">
+                    <div class="rounded-lg shadow-lg bg-white ">
+                        <a href="#!">
+                            <img class="rounded-t-lg" src="images/banners/wwdo-banana.jpg" alt="" />
+                        </a>
+                        <div class="p-6">
+                            <h5 class="font-inter text-gray-900 text-xl font-medium mb-2">Banana</h5>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="processing container">
+        <div class="processing__content">
+            <div class="processing__title">
+                <h1 class="font-raleway">Processing Procedure</h1>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="c-container">
+        <div class="carousel">
+            <div class="carousel__nav">
+                <span id="moveLeft" class="carousel__arrow">
+                    <svg class="carousel__icon" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+                    </svg>
+                </span>
+                <span id="moveRight" class="carousel__arrow">
+                    <svg class="carousel__icon" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+                    </svg>
+                </span>
+            </div>
+            <div class="carousel-item carousel-item--1">
+                <div class="carousel-item__image"></div>
+                <div class="carousel-item__info">
+                    <div class="carousel-item__container">
+                        <h2 class="carousel-item__subtitle">Receiving </h2>
+                        <h1 class="carousel-item__title">RECEIVING</h1>
+                        <p class="carousel-item__description">Fruits are received at the receiving area. Personnel
+                            to receive the durian should always be accompanied by a Quality Inspector to check the
+                            quality of the raw materials in accordance to the Raw Material Specification.
+                        </p>
+                        <a href="#" class="carousel-item__btn">Explore the tour</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item carousel-item--2">
+                <div class="carousel-item__image"></div>
+                <div class="carousel-item__info">
+                    <div class="carousel-item__container">
+                        <h2 class="carousel-item__subtitle">Sorting </h2>
+                        <h1 class="carousel-item__title">SORTING</h1>
+                        <p class="carousel-item__description">Ripe fruits are sorted out from unripe.
+                        </p>
+                        <a href="#" class="carousel-item__btn">Read the article</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item carousel-item--3">
+                <div class="carousel-item__image"></div>
+                <div class="carousel-item__info">
+                    <div class="carousel-item__container">
+                        <h2 class="carousel-item__subtitle">Spraying </h2>
+                        <h1 class="carousel-item__title">SPRAYING</h1>
+                        <p class="carousel-item__description">Fruits are washed with chlorinated water using a
+                            sprayer to clean, remove dirt and avoid transport of foreign matter inside the
+                            processing area.
+                        </p>
+                        <a href="#" class="carousel-item__btn">Explore the palms</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="carousel-item carousel-item--4">
+                <div class="carousel-item__image"></div>
+                <div class="carousel-item__info">
+                    <div class="carousel-item__container">
+                        <h2 class="carousel-item__subtitle">Beach </h2>
+                        <h1 class="carousel-item__title">The beach </h1>
+                        <p class="carousel-item__description">Sed ut perspiciatis unde omnis iste natus error sit
+                            voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                        <a href="#" class="carousel-item__btn">Explore the beach</a>
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="carousel-item carousel-item--5">
+                <div class="carousel-item__image"></div>
+                <div class="carousel-item__info">
+                    <div class="carousel-item__container">
+                        <h2 class="carousel-item__subtitle">Soaking </h2>
+                        <h1 class="carousel-item__title">SOAKING</h1>
+                        <p class="carousel-item__description">Previously cleaned fruits are then soaked in
+                            chlorinated water with specific time and concentration.
+                        </p>
+                        <a href="#" class="carousel-item__btn">Read the article</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item carousel-item--5">
+                <div class="carousel-item__image"></div>
+                <div class="carousel-item__info">
+                    <div class="carousel-item__container">
+                        <h2 class="carousel-item__subtitle">Breaking </h2>
+                        <h1 class="carousel-item__title">BREAKING</h1>
+                        <p class="carousel-item__description">Production personnel with good personal hygiene,
+                            wearing proper protective equipment breaks the fruits using clean and sanitized
+                            stainless steel breaking equipment.
+                        </p>
+                        <a href="#" class="carousel-item__btn">Read the article</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item carousel-item--5">
+                <div class="carousel-item__image"></div>
+                <div class="carousel-item__info">
+                    <div class="carousel-item__container">
+                        <h2 class="carousel-item__subtitle">PROCESSING/SORTING
+                        </h2>
+                        <h1 class="carousel-item__title">PROCESSING/SORTING
+                        </h1>
+                        <p class="carousel-item__description">Fruits are sorted accordingly for export and local
+                            quality.
+                        </p>
+                        <a href="#" class="carousel-item__btn">Read the article</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item carousel-item--5">
+                <div class="carousel-item__image"></div>
+                <div class="carousel-item__info">
+                    <div class="carousel-item__container">
+                        <h2 class="carousel-item__subtitle">FILING INTO FOOD TRAYS
+                        </h2>
+                        <h1 class="carousel-item__title">FILING INTO FOOD TRAYS
+                        </h1>
+                        <p class="carousel-item__description">Sorted fruits are arranged into clean and sanitized
+                            fruit trays.
+                        </p>
+                        <a href="#" class="carousel-item__btn">Read the article</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item carousel-item--5">
+                <div class="carousel-item__image"></div>
+                <div class="carousel-item__info">
+                    <div class="carousel-item__container">
+                        <h2 class="carousel-item__subtitle">WEIGHING </h2>
+                        <h1 class="carousel-item__title">WEIGHING</h1>
+                        <p class="carousel-item__description">Fruits in fruit trays are weighed in a calibrated
+                            weighing scale where each tray should weigh as per costumer specification.
+                        </p>
+                        <a href="#" class="carousel-item__btn">Read the article</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item carousel-item--5">
+                <div class="carousel-item__image"></div>
+                <div class="carousel-item__info">
+                    <div class="carousel-item__container">
+                        <h2 class="carousel-item__subtitle">TRAYING </h2>
+                        <h1 class="carousel-item__title">TRAYING</h1>
+                        <p class="carousel-item__description">Weighed fruits in fruit trays are arranged into clean
+                            and sanitized trolley.
+                        </p>
+                        <a href="#" class="carousel-item__btn">Read the article</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item carousel-item--5">
+                <div class="carousel-item__image"></div>
+                <div class="carousel-item__info">
+                    <div class="carousel-item__container">
+                        <h2 class="carousel-item__subtitle">PROCESSING/SORTING
+                        </h2>
+                        <h1 class="carousel-item__title">FILING INTO CRATES
+                        </h1>
+                        <p class="carousel-item__description">Fruits are sorted accordingly for export and local
+                            quality.
+                        </p>
+                        <a href="#" class="carousel-item__btn">Read the article</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item carousel-item--5">
+                <div class="carousel-item__image"></div>
+                <div class="carousel-item__info">
+                    <div class="carousel-item__container">
+                        <h2 class="carousel-item__subtitle">BLAST FREEZING
+                        </h2>
+                        <h1 class="carousel-item__title">BLAST FREEZING
+                        </h1>
+                        <p class="carousel-item__description">Products are blast freeze for certain time at -40°C
+                            depending on the kind of fruit being process.
+                        </p>
+                        <a href="#" class="carousel-item__btn">Read the article</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item carousel-item--5">
+                <div class="carousel-item__image"></div>
+                <div class="carousel-item__info">
+                    <div class="carousel-item__container">
+                        <h2 class="carousel-item__subtitle">VACUUM PACKING
+                        </h2>
+                        <h1 class="carousel-item__title">VACUUM PACKING
+                        </h1>
+                        <p class="carousel-item__description">Blast frozen products are forwarded to packing area
+                            for vacuum packing, sealing and coding.
+                        </p>
+                        <a href="#" class="carousel-item__btn">Read the article</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item carousel-item--5">
+                <div class="carousel-item__image"></div>
+                <div class="carousel-item__info">
+                    <div class="carousel-item__container">
+                        <h2 class="carousel-item__subtitle">FILING INTO CRATES
+                        </h2>
+                        <h1 class="carousel-item__title">FILING INTO CRATES
+                        </h1>
+                        <p class="carousel-item__description">Vacuum packed products are arranged into clean,
+                            sanitized and dried crates.
+                        </p>
+                        <a href="#" class="carousel-item__btn">Read the article</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item carousel-item--5">
+                <div class="carousel-item__image"></div>
+                <div class="carousel-item__info">
+                    <div class="carousel-item__container">
+                        <h2 class="carousel-item__subtitle">COLD STORING
+                        </h2>
+                        <h1 class="carousel-item__title">COLD STORING
+                        </h1>
+                        <p class="carousel-item__description">Finished products are then forwarded to cold storage
+                            with temperature of at least -18oC. Products are off of the floor using pallets.
+                        </p>
+                        <a href="#" class="carousel-item__btn">Read the article</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script> -->
+    <!-- <script src="./node_modules/tw-elements/dist/js/index.min.js"></script> -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src='js/app.js'></script>
+    <script src="js/caro.js"></script>
 </body>
 
 </html>
