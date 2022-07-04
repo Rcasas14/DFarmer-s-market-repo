@@ -1,0 +1,53 @@
+.why_us {
+    position: relative;
+    min-height: 100vh;
+    margin: 200px 0;
+
+    &__content {
+        width: 27%;
+
+        img {
+            border-radius: 0px;
+        }
+    }
+
+    // &__shadow {
+    //     border: 2px dashed $brown;
+    // }
+
+    &__title {
+
+        h2 {
+            font-size: 45px;
+            color: $brown;
+
+            @include breakpoint-down(small) {
+                font-size: 30px;
+            }
+        }
+
+        p {
+            font-size: 16px;
+            color: #000;
+
+            @include breakpoint-up(large) {
+                font-size: 18px;
+            }
+        }
+
+    }
+
+    .because {
+        font-size: 22px;
+        font-weight: 600;
+
+        @include breakpoint-down(small) {
+            font-size: 18px;
+        }
+    }
+
+    &__text {
+        text-align: center;
+    }
+
+}

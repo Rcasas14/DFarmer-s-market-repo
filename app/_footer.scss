@@ -1,0 +1,55 @@
+.footer {
+    background-color: rgba(244, 219, 173, 1);
+
+    &__plant {
+        p {
+            color: #000;
+        }
+    }
+
+    &__links {
+        p {
+            color: #000;
+        }
+    }
+
+    &__contact {
+        .font-rxs {
+            font-size: 12px;
+        }
+
+        p {
+            color: #000;
+        }
+    }
+
+    &__logo {
+        width: 100px;
+        height: 110px;
+        margin: 35px auto;
+    }
+
+    .logo_cont {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+
+    }
+
+    p {
+        color: #000;
+    }
+
+    &__b {
+        border-bottom: 1px solid #000;
+    }
+
+    &__copyright {
+        //background-color: #e5a940;
+        background-color: $brown;
+
+        a,span {
+            color: #fff;
+        }
+    }
+}
